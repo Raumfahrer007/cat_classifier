@@ -23,20 +23,18 @@ pip install jupyter notebook
 ### 3. Download Project Assets
 From Google Drive:
 https://drive.google.com/drive/folders/1Rt7a59YWzPHRuB3BATFKmCIZ0MHnRrpD?usp=sharing
-
-Download the models/ folder and place it in the project root
-
-Download the raw/ folder and place it inside data/
+- Download the models/ folder and place it in the project root
+- Download the raw/ folder and place it inside data/
 
 Final structure should be:
 
 text
-cat_classifier/
-├── models/           # ← Download from Google Drive
-├── data/
-│   └── raw/         # ← Download from Google Drive
-├── notebooks/
-├── src/
+cat_classifier/  
+├── models/           # ← Download from Google Drive  
+├── data/  
+│   └── raw/         # ← Download from Google Drive  
+├── notebooks/  
+├── src/  
 └── ...
 ### 4. Launch Jupyter Notebook
 ```bash
